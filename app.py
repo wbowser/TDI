@@ -5,7 +5,7 @@ from bokeh.plotting import figure
 from bokeh.util.string import encode_utf8
 import simplejson as sj
 import collections
-import numpy as np
+#import numpy as np
 import pandas as pd
 import requests
 import os
