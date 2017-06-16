@@ -66,7 +66,7 @@ def ticker_select(name):
     return r.text
 
 
-@app.route('/index', methods=['GET','POST'])
+@app.route("/index", methods=['GET','POST'])
 def index():
     
     if request.method == 'GET':
