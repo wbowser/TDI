@@ -1,0 +1,22 @@
+<title>Stock Ticker Plot</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='mystyle.css')}}'>
+<div class=page>
+    <head> 
+        <link href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.css" rel="stylesheet" type="text/css">
+        <link href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.6.min.css" rel="stylesheet" type="text/css">
+
+        <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.js"></script>
+        <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.6.min.js"></script>
+    </head>
+  <h1>Hello Bokeh!! <br />
+    
+      <a href= '/index'> Back  </a>
+    </h1>
+    
+    <body>
+
+      {{div|safe}}
+      {{script|safe}}
+    </body>
+
+  </div>
