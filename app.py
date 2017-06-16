@@ -105,9 +105,9 @@ def index():
         script, div = components(p1)
 
                
-        return encode_utf8(render_template('plotview.html', script=script, div=div))
+        return render_template('plotview.html', script=script, div=div)
        
 
 if __name__== "__main__":
-    #port = int(os.environ.get("PORT", 33507))
-    app.run(host='0.0.0.0', port=33507)
+    port = int(os.environ.get("PORT", 33507))
+    app.run(host='0.0.0.0', port=port)
